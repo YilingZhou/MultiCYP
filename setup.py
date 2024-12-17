@@ -14,32 +14,17 @@ setup(
     version='1.0.0',
     packages=find_packages(),
     project_urls={
-        "Documentation": "http://opennmt.net/OpenNMT-py/",
-        "Forum": "http://forum.opennmt.net/",
-        "Gitter": "https://gitter.im/OpenNMT/OpenNMT-py",
-        "Source": "https://github.com/OpenNMT/OpenNMT-py/"
+        "Documentation": "https://github.com/YilingZhou/MultiCYP/",
+        "Forum": "https://github.com/YilingZhou/MultiCYP/",
+        "Gitter": "https://github.com/YilingZhou/MultiCYP/",
+        "Source": "https://github.com/YilingZhou/MultiCYP/"
     },
-    python_requires=">=3.5",
+    python_requires=">=3.8",
     install_requires=[
-        "torch>=1.6.0",
-        "torchtext==0.5.0",
-        "configargparse",
-        "tensorboard>=2.3",
-        "flask",
-        "waitress",
-        "pyonmttok>=1.23,<2",
-        "pyyaml",
-        "sacrebleu"
-    ],
-    entry_points={
-        "console_scripts": [
-            "onmt_server=onmt.bin.server:main",
-            "onmt_train=onmt.bin.train:main",
-            "onmt_translate=onmt.bin.translate:main",
-            "onmt_translate_dynamic=onmt.bin.translate_dynamic:main",
-            "onmt_release_model=onmt.bin.release_model:main",
-            "onmt_average_models=onmt.bin.average_models:main",
-            "onmt_build_vocab=onmt.bin.build_vocab:main"
-        ],
-    }
+        "torch>=1.8.0",
+        "rdkit",
+        "numpy>=1.19.0",
+        "pandas>=1.3.0",
+        "scikit-learn>=0.24.0"
+    ]
 )

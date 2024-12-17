@@ -17,6 +17,7 @@ MultiCYP supports multiple input formats, including:
 - SMI file  
 - CSV file (must contain a column named 'Smiles')  
 - SDF file
+
 Basic Model (Molecular Graph Only):
 ```bash  
 python predict_main.py -i input_file -o output_path  

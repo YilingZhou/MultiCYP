@@ -8,6 +8,7 @@ conda install rdkit
 conda install pytorch=1.13.0
 pip install pandas
 pip install numpy
+pip install chemprop
 ```
 If use multi-scale feature, JAVA [![Java](https://img.shields.io/badge/Java-21.0.2%2B-brightgreen.svg)](https://www.oracle.com/java/technologies/downloads/#java21) is needed.
 ## Predicting metabolites

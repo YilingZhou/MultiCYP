@@ -4,7 +4,6 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem.Draw import rdMolDraw2D
 from rdkit.Geometry import Point2D
-from IPython.display import display, SVG
 
 
 rxn_type_dix= {0: 'Reduction', 1: 'Rearrangement', 2: 'C-oxidation', 3: 'Epoxidation',

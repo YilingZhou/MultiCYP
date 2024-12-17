@@ -1,14 +1,14 @@
 # MultiCYP
 MultiCYP is an end-to-end, integrated metabolic characterization prediction model based on multi-task strategy and multi-scale features. This model provides comprehensive predictions about metabolic enzymes, metabolic sites, and metabolites for specified molecules. The methodology is described in detail in the paper.
 ## Installation
-''' python
+``` python
 conda activate -n MultiCYP python=3.8
 conda activate MultiCYP
 conda install rdkit
 conda install pytorch=1.13.0
 pip install pandas
 pip install numpy
-'''
+```
 If use multi-scale feature, JAVA [![Java](https://img.shields.io/badge/Java-21.0.2%2B-brightgreen.svg)](https://www.oracle.com/java/technologies/downloads/#java21) is needed.
 ## Predicting metabolites
 ### Prepare input files
